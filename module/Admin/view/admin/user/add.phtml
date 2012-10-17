@@ -1,0 +1,6 @@
+<?php echo $this->form()->openTag($form) ?>
+<?php echo $this->formRow($form->get('email')) ?>
+<?php echo $this->formRow($form->get('password')) ?>
+<?php echo $this->formRow($form->get('role')) ?>
+<p><?php echo $this->formSubmit($form->get('submit')) ?></p>
+<?php echo $this->form()->closeTag($form) ?>
